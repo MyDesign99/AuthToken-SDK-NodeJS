@@ -1,0 +1,18 @@
+{
+  "name": "authtoken-sdk-nodejs",
+  "version": "1.1.1",
+  "description": "Library for obtaining image Auth Tokens from MyDesign99 for NodeJS servers",
+  "keywords": ["MyDesign99.com", "MD99", "Authenticate", "Images", "Auth", "Token", "SDK", "NodeJS"],
+	"author": {
+		"name": "MyDesign99"
+	},
+	"contributors": [
+		"Tim Lambert"
+	],
+  "homepage": "https://mydesign99.com",
+  "dependencies": {
+    "axios": ">=1.7.2"
+  },
+  "main": "md99-auth.js",
+  "license": "MIT"
+}
