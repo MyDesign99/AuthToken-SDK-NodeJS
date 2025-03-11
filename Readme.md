@@ -22,14 +22,14 @@ There are 3 function in this SDK package.
 
 ```
 getMD99AuthToken (publicKey, secretKey, callback)
-createImageURL   (publicKey, token, value, longAssetName)
+createImageURL   (publicKey, token, value, assetName)
 errorImageURL    ()
 ```
 
 getMD99AuthToken (publicKey, secretKey, callback)
 > Request the current authentication token. The developer's public and secret keys are required. This request is asyncronous, so a callback is used to return the auth token.
 
-createImageURL (publicKey, token, value, longAssetName)
+createImageURL (publicKey, token, value, assetName)
 > Create a well-formed URL for the requested image. "clientID" is the publicKey. "token" is retrieved using the "getMD99AuthToken" function. "value" is the numeric value to be displayed in the MD99 graphic. "assetName" is the name of the developer's MD99 asset (graphic) to be displayed. Assets are created through the MyDesign99 portal after creating an account. A fully-formed image URL is return as a String.
 
 errorImageURL ()
