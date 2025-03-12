@@ -14,7 +14,11 @@ Use the Image Authentication SDK from MyDesign99 on your server to build fully f
 MyDesign99 requires that image requests use authenticated tokens in the fully-formed URL as a part of your own designs and websites. This SDK is used to retrieve the latest token for your account and to format the URL.
 
 Example:
+```
 https://mydesign99.com/abcd1234/wxyz5678asdf9876/78/first-asset.png
+```
+
+The normal usage of the SDK is to have it embedded on your own server.  Then you would use your own database to retrieve values and the SDK to retrieve an Auth Token. MyDesign99 provides you with a Public Key and a Secret Key. Through your MD99 account, you can create custom designs (graphics). The combination of Public Key, Auth Token, Value, and Asset Name will form a valid URL for an **img** tag to be placed on your own web pages, reports or PDF files.
 
 ## USAGE
 
